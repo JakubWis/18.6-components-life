@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+	background-color: #ffeee2;
+}
+.counter{
+	text-align: center;
+}
+.blue{
+	text-align: center;
+	color: blue;
+}
+button{
+	padding: 10px;
+	margin-left: 20px;
+	background-color: #41a2fc;
+	cursor: pointer;
+	border:none;
+	border-radius: 2px;
+	transition: all 0.5s;
+}
+button:hover{
+	background-color: #003259;
+	color: #fff;
+	padding: 20px;
+	margin-left: 15px;
+}
