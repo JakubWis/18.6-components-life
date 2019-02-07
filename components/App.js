@@ -2,6 +2,7 @@ var Counter = React.createClass({
     getDefaultProps(){
       console.log('component is getting default props')
     },
+
     getInitialState: function() {
         return {
             counter: 0,
@@ -33,12 +34,15 @@ var Counter = React.createClass({
             React.createElement(BlueCounter, {}, ),
         );
     },
+
     componentDidMount(){
       console.log('component already mounted')
     },
+
     componentWillUpdate(){
       console.log('component is going to update')
     },
+    
     componentDidUpdate(){
       console.log('component already updated')
     }
